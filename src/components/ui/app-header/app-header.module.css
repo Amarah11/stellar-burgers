@@ -4,7 +4,7 @@
 .menu {
   display: flex;
   align-items: center;
-  max-width: 1240px;
+  max-width: 1340px;
   height: 56px;
   margin: 0 auto;
 }
@@ -16,8 +16,13 @@
 
 .link {
   display: flex;
+  flex-direction: row;
   text-decoration: none;
   color: var(--text-inactive-color);
+}
+
+.navlink {
+  width: 100px;
 }
 
 .link_active {
